@@ -6,7 +6,7 @@ const AppBar = () => {
     return (
         <nav>
         <NavLink to="/">Shop</NavLink >
-        <NavLink to="/shopCart">Shop Cart</NavLink >
+        <NavLink to="/ShoppingCart">Shopping Cart</NavLink >
       </nav>
     )
 }

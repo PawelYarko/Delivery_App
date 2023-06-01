@@ -1,6 +1,6 @@
 // import { useState, useEffect } from 'react'
 // import { NavLink, useLocation } from 'react-router-dom'
-import ShopsList from './ShopsList/ShopsList';
+import ShopsList from '../components/ShopsList/ShopsList';
 // import s from './css/Home.module.css'
 
 export default function Shop() {
