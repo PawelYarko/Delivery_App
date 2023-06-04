@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerList{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    outline: 1px solid gray;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.link{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

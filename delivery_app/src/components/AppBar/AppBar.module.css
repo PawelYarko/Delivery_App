@@ -1,0 +1,13 @@
+.nav{
+    font-size: 25px;
+}
+
+.item{
+    padding: 20px;
+    color: inherit; 
+    text-decoration: inherit;
+}
+
+.item:hover{
+    color: #b0abf2;
+}

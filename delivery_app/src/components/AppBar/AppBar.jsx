@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
-// import s from './AppBar.module.css';
+import s from './AppBar.module.css';
 
 
 const AppBar = () => {
     return (
-        <nav>
-        <NavLink to="/">Shop</NavLink >
-        <NavLink to="/ShoppingCart">Shopping Cart</NavLink >
+        <nav className={s.nav}>
+        <NavLink to="/" className={s.item}>Shop</NavLink >| 
+        <NavLink to="/ShoppingCart" className={s.item}>Shopping Cart</NavLink >
       </nav>
     )
 }
